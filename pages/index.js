@@ -20,11 +20,11 @@ export default function Home() {
       Aidan Lao
     </h1>
     <div class="directory">
-      <a class="btn m grow" href="/">Tools</a>
-      <a class="btn m grow" href="/">Bio</a>
-      <a class="btn m grow" href="/">Projects</a>
-      <a class="btn m grow" href="/">Socials</a>
-      <a class="btn m grow" href="/">Resume</a>
+      <a class="btn m grow" href="#tools">Tools</a>
+      <a class="btn m grow" href="#about">Bio</a>
+      <a class="btn m grow" href="#projects">Projects</a>
+      <a class="btn m grow" href="#contact">Socials</a>
+      <a class="btn m grow" href="#contact">Resume</a>
     </div>
     <div class="blob">
       <svg xmlnsXLink="http://www.w3.org/1999/xlink" version="1.1" xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +41,7 @@ export default function Home() {
       </svg>
     </div>
   </div>
-  <div class="about">
+  <div id="about" class="about">
   <h1>About me</h1>
   <div class='grid'>
     <div>
@@ -80,7 +80,7 @@ export default function Home() {
     </div>
   </div>
 </div>
-  <div class="tools">
+  <div id="tools" class="tools">
     <div>
       <div><h2 class="m">Languages</h2>
       <ul>
@@ -137,7 +137,7 @@ export default function Home() {
     </div>
   </div>
 
-<div class="projects">
+<div id="projects" class="projects">
   <h1>Projects</h1>
   <div >
     <div>
@@ -151,7 +151,7 @@ export default function Home() {
     </ul>
   </div>
 </div>
-<div class="contact">
+<div id="contact" class="contact">
     <h1>Contact</h1>
     <p>laoaidan@gmail.com</p>
     <a href="https://www.linkedin.com/in/aidanlao/">
