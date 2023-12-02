@@ -71,6 +71,7 @@ export default function Home() {
       <div class="card">
          <h1>Professional Pianist</h1>
           <p> Winner of international competitions and national representative <br/><br/> Accredited by the Royal Conservatory of Music (L.Mus) </p>
+          <a href="https://laopiano.ca">laopiano.ca</a>
        </div>
     </div>
     <div>
