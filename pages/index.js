@@ -51,7 +51,7 @@ export default function Home() {
         <p>2nd year student + Winner of Provost Medal <br/><br/> 4.0/4.0 GPA <br/><br/> A winner of McMaster Engineering Competition</p>
       </div>
        <div class="card img">
-         <img src="./svg/piano.JPG" alt=""/>
+         <img src="/svg/piano.JPG" alt=""/>
        </div>
        <div class="card">
          <h1>Experienced Full-stack Developer</h1>
@@ -93,7 +93,7 @@ export default function Home() {
       </ul></div> 
       <div class="image">
 
-        <img src="./svg/languages.png" alt="" />
+        <img src="/svg/languages.png" alt="" />
       </div>
     </div>
    
@@ -115,7 +115,7 @@ export default function Home() {
        </ul>
      </div>
       <div class="image">
-        <img src="./svg/react.png" alt="" />
+        <img src="/svg/react.png" alt="" />
       </div>
     </div>
     <div>
@@ -131,7 +131,7 @@ export default function Home() {
       </ul>
     </div>
       <div class="image">
-        <img src="./svg/git.svg" alt="" />
+        <img src="/svg/git.svg" alt="" />
       </div>
     </div>
   </div>
@@ -440,7 +440,7 @@ export default function Home() {
         }
         
         .lan {
-          background-image: url("./svg/Gradient_blob.svg");
+          background-image: url("/svg/Gradient_blob.svg");
           background-repeat: no-repeat;
           
         }
