@@ -151,14 +151,23 @@ export default function Home() {
   </div>
 </div>
 <div class="contact">
-  
-</div>
+    <h1>Contact</h1>
+    <p>laoaidan@gmail.com</p>
+    <a href="https://www.linkedin.com/in/aidanlao/">
+      linkedin
+    </a>
+  </div>
+
 
 
       </main>
 
 
       <style jsx global>{`
+      #__next > div {
+        padding: 0;
+        margin: 0;
+      }
         html {
           height: 100%;
           width: 100%;
@@ -508,11 +517,12 @@ export default function Home() {
           align-items: center;
           justify-content: center;
           flex-direction: column;
+          height: 80vh;
         }
         .projects div > h1 {
           text-align: center;
         }
-        .projects h1 {
+        .projects h1  {
           font-family: 'Playfair Display', serif;
           font-weight: bold;
           font-size: 3em;
@@ -520,6 +530,45 @@ export default function Home() {
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
         }
+        
+        .contact h1  {
+          font-family: 'Playfair Display', serif;
+          font-weight: bold;
+          font-size: 3em;
+          background: -webkit-linear-gradient(#e6dee7, #d0e0fb);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+        .contact {
+          display: flex;
+          flex-direction: column;
+          row-gap: 0.5em;
+          align-items: center;
+          justify-content: center;
+        }
+        .contact {
+          background: linear-gradient(270deg, #358acc, #600dd9, #13ca8a);
+          background-size: 600% 600%;
+        
+          -webkit-animation: AnimationName 8s ease infinite;
+          -moz-animation: AnimationName 8s ease infinite;
+          animation: AnimationName 8s ease infinite;
+          color: white;
+          height: 100vh;
+        }
+        .contact a {
+          text-decoration: none;
+          padding: 0.3em 0.6em;
+          border-radius: 1em;
+          margin: 0.3em;
+          color: white;
+          border: 2px solid white;
+          
+        }
+        .contact a:hover {
+          transform: scale(1.1);
+        }
+        
       `}</style>
 
       <style jsx global>{`
